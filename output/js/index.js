@@ -1,0 +1,3 @@
+/*! 包名：grunt-empty - 版本号v：1.0.0 */
+$(function(){var a=localStorage.getItem("id");$.ajax({type:"POST",url:URL+"/user/getWorkOrder",data:{id:a},success:function(a){var a=JSON.parse(a),b=tree.getAttributeValue("value",a,"bzz");$(".monitor").append(b),$(".loading").hide(),$(".loadCeng").hide();var c=doT.template($("#special_req").html());$("#special_require").html(c(a))},error:function(a){console.log(a),stopWork(a)}})});
+/*! 修改日期：2016-12-04 */

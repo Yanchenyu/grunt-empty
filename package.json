@@ -1,0 +1,35 @@
+{
+  "name": "grunt-empty",
+  "version": "1.0.0",
+  "description": "learn grunt by empty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yanchenyu/grunt-empty.git"
+  },
+  "keywords": [
+    "grunt",
+    "empty",
+    "merge"
+  ],
+  "author": "yanchenyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanchenyu/grunt-empty/issues"
+  },
+  "homepage": "https://github.com/Yanchenyu/grunt-empty",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "time-grunt": "^1.4.0"
+  }
+}
